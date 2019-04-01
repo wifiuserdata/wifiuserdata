@@ -1,6 +1,6 @@
 function page(){
-	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/index.html#portfolio";
 	window.location.href = "https://wifiuserdata.github.io/wifiuserdata/index.html#portfolio";
+	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/index.html#portfolio";
 	if(window.location.href == "https://wifiuserdata.github.io/wifiuserdata/index.html#portfolio"){
 		window.setTimeout(function(){
 
