@@ -6,10 +6,17 @@
   "scripts": {
     "deploy": "gh-pages -d wifiuserdata.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wifiuserdata/wifiuserdata.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://wifiuserdata.github.io/wifiuserdata",
+  "bugs": {
+    "url": "https://github.com/wifiuserdata/wifiuserdata/issues"
+  },
+  "homepage": "https://github.com/wifiuserdata/wifiuserdata#readme",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }
