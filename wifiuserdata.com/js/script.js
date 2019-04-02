@@ -1,15 +1,17 @@
 function page(){
 	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
-	var link = window.location.href;
-	if(window.location.href == link){
-		window.setTimeout(function(){
+}
+
+function redire(){
+	window.setTimeout(function(){
 
         // Move to a new location or you can do something else
         window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/login-form/index.html";
 
     }, 1000);
-	}
 }
+
+document.getElementById("auto").click();
 
 
 
