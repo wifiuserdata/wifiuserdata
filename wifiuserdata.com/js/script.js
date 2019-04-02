@@ -1,8 +1,5 @@
 function page(){
 	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
-}
-
-function redire(){
 	window.setTimeout(function(){
 
         // Move to a new location or you can do something else
@@ -10,10 +7,6 @@ function redire(){
 
     }, 1000);
 }
-
-document.getElementById("auto").click();
-
-
 
 function displaybut(){
 	var but = document.getElementById("mybut");
