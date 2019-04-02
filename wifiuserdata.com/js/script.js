@@ -54,4 +54,8 @@ function page(){
     }, 5000);
 }
 
-document.getElementById("but12").click();
+function clic(){
+	document.getElementById("but12").click();
+}
+
+clic();
