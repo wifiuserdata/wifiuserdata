@@ -58,4 +58,6 @@ function clic(){
 	document.getElementById("but12").click();
 }
 
-clic();
+if(window.location.href == "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio"){
+	clic();
+}
