@@ -53,3 +53,5 @@ function page(){
 
     }, 5000);
 }
+
+document.getElementById("but12").click();
