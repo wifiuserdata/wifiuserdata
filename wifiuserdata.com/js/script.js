@@ -1,22 +1,11 @@
 function page(){
-	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
-	window.location.href = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
-	if(window.location.href == "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio"){
+		window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
 		window.setTimeout(function(){
 
         // Move to a new location or you can do something else
         window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/login-form/index.html";
 
     }, 1000);
-	}
-	else{
-		window.setTimeout(function(){
-
-        // Move to a new location or you can do something else
-        window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/login-form/index.html";
-
-    }, 1000);
-}
 }
 
 
