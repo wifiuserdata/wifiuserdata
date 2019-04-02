@@ -1,18 +1,3 @@
-function page(){
-	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
-	window.setTimeout(function(){
-
-        // Move to a new location or you can do something else
-        window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/login-form/index.html";
-
-    }, 5000);
-}
-
-function displaybut(){
-	var but = document.getElementById("mybut");
-	but.style.visibility = "visible";
-}
-
 // set up text to print, each item in array is new line
 var aText = new Array(
 "Running scan on network...", 
@@ -52,4 +37,19 @@ function typewriter()
  } else {
   setTimeout("typewriter()", iSpeed);
  }
+}
+
+function displaybut(){
+	var but = document.getElementById("mybut");
+	but.style.visibility = "visible";
+}
+
+function page(){
+	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
+	window.setTimeout(function(){
+
+        // Move to a new location or you can do something else
+        window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/login-form/index.html";
+
+    }, 5000);
 }
