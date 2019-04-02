@@ -1,7 +1,7 @@
 function page(){
-	window.location.href = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
 	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
-	if(window.location.href == "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio"){
+	var link = window.location.href;
+	if(window.location.href == link){
 		window.setTimeout(function(){
 
         // Move to a new location or you can do something else
