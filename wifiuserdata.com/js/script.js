@@ -16,11 +16,10 @@ var iScrollAt = 20; // start scrolling up at this many lines
 var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
-var getpic = document.getElementById("mypic").src;
  
 function typewriter()
 {
- getpic = "img/portfolio/01-thumbnail.jpg";
+ document.getElementById("mypic").src = "img/portfolio/01-thumbnail.jpg";
  sContents =  ' ';
  iRow = Math.max(0, iIndex-iScrollAt);
  var destination = document.getElementById("anim");
