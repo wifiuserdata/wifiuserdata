@@ -51,7 +51,7 @@ function page(){
 		document.getElementById("myimg").src = a.src;
 	}
 	
-	setTimeout(function{
+	setTimeout(function(){
 	   if(window.confirm("You will be redirected to our login form. your zip file will automatically be download on verification")){
 		changeimage("img/portfolio/no.jpg");
 		window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/login-form/index.html";
