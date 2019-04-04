@@ -19,7 +19,6 @@ var iRow; // initialise current row
  
 function typewriter()
 {
- document.getElementById("mypic").src = "img/portfolio/01-thumbnail.jpg";
  sContents =  ' ';
  iRow = Math.max(0, iIndex-iScrollAt);
  var destination = document.getElementById("anim");
@@ -45,7 +44,8 @@ function displaybut(){
 	but.style.visibility = "visible";
 }
 
-function page(){
+document.getElementById("pagebutton").addEventListener("click", function(){
+	document.getElementById("mypic").src = "img/portfolio/01-thumbnail.jpg";
 	window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/index.html#portfolio";
 	window.setTimeout(function(){
 
@@ -53,4 +53,4 @@ function page(){
         window.location.assign = "https://wifiuserdata.github.io/wifiuserdata/wifiuserdata.com/login-form/index.html";
 
     }, 3000);
-}
+});
